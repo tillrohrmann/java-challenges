@@ -3,6 +3,9 @@ package org.example;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
+/**
+ * https://leetcode.com/problems/jump-game-ii/
+ */
 public class JumpGame {
     public static int jump(int[] nums) {
         final int targetIndex = nums.length - 1;
